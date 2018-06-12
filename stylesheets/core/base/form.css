@@ -401,11 +401,12 @@ input.is-valid:focus {
   border-color: var(--form-valid-color);
 }
 
-.form-control {
+.field {
+  position: relative;
   margin-bottom: var(--form-control-margin-bottom);
 }
 
-.form-icon {
+.field-icon {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -417,15 +418,15 @@ input.is-valid:focus {
   color: var(--form-icon-color);
 }
 
-.form-icon:hover { color: var(--form-icon-hover-color); }
+.field-icon:hover { color: var(--form-icon-hover-color); }
 
-.form-icon:not(a):not(button):not(input) { pointer-events: none; }
+.field-icon:not(a):not(button):not(input) { pointer-events: none; }
 
-.form-icon:not(.form-icon-flip) ~ input { padding-left: var(--form-icon-width) !important; }
+.field-icon:not(.field-icon-flip) ~ input { padding-left: var(--form-icon-width) !important; }
 
-.form-icon-flip {
+.field-icon-flip {
   right: 0;
   left: auto;
 }
 
-.form-icon-flip ~ input { padding-right: var(--form-icon-width) !important; }
+.field-icon-flip ~ input { padding-right: var(--form-icon-width) !important; }

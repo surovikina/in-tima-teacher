@@ -1,7 +1,2 @@
-@import 'variables.css';
-@import 'base/index.css';
-@import 'layouts/index.css';
-@import 'elements/index.css';
-@import 'components/index.css';
-
-@import 'themes/theme.css';
+@import 'core/index.css';
+@import 'themes/index.css';
