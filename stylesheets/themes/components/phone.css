@@ -1,0 +1,9 @@
+.phone {
+  display: inline-flex;
+  align-items: center;
+}
+
+.phone .icon {
+  margin-right: 5px;
+  font-size: 1.5em;
+}

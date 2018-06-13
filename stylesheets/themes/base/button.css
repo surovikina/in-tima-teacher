@@ -1,0 +1,25 @@
+:root {
+  --button-color: #333;
+  --button-background: #e9e9e9;
+  --button-font-family: inherit;
+  --button-font-size: var(--global-font-size);
+  --button-font-weight: normal;
+  --button-padding: 2px 16px;
+  --button-height: var(--global-control-height);
+  --button-color-hover: #fff;
+  --button-background-hover: var(--global-primary-background);
+  --button-color-focus: #fff;
+  --button-background-focus: var(--global-primary-background);
+  --button-color-active: #fff;
+  --button-background-active: var(--global-primary-background);
+}
+/* Buttons */
+
+/* ================================= */
+
+button,
+input[type="button"],
+input[type="submit"],
+.button {
+  border-radius: 4px;
+}

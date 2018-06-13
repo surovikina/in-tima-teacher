@@ -1,0 +1,22 @@
+:root {
+  --global-font-family: 'Tahoma', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --global-font-size: 12px;
+  --global-line-height: 1.5;
+  --global-color: #333;
+  --global-muted-color: #999;
+  --global-link-color: #24b5e1;
+  --global-link-hover-color: #1891b5;
+  --global-inverse-color: #fff;
+  --global-background: #fff;
+  --global-muted-background: #969696;
+  --global-primary-background: #24b5e1;
+  --global-secondary-background: #222;
+  --global-success-background: #32d296;
+  --global-warning-background: #faa05a;
+  --global-danger-background: #f0506e;
+  --global-border-width: 1px;
+  --global-border: #e5e5e5;
+  --global-margin: 20px;
+  --global-gutter: 30px;
+  --global-control-height: 26px;
+}

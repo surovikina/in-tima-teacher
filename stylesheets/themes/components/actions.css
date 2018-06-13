@@ -1,0 +1,15 @@
+.actions-news {
+  text-align: right;
+}
+
+*+.actions-news {
+  margin-top: 22px;
+}
+
+.actions-newsletter {
+  text-align: right;
+}
+
+*+.actions-newsletter {
+  margin-top: 27px;
+}

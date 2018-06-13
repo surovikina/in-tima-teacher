@@ -1,0 +1,19 @@
+/* icons */
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-phone {
+  background-image: url(../../icons/phone.png);
+}
+
+.icon-search {
+  background-image: url(../../icons/search.png);
+}
